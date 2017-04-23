@@ -1,0 +1,523 @@
+{
+	"customer": [
+
+		{
+			"compId": "123465686",
+			"compName": "General Motors",
+			"compAddr": "16 batlibull drive,Brampton, ON l6Y 5G1",
+			"compContact": "647-778-1076",
+			"compPontact": "647-778-1234",
+			"compEmail": "General Motors@gmail.com",
+			"invNum": [{
+					"i": "0",
+					"Invoice": "54321"
+				}, {
+					"i": "10",
+					"Invoice": "12345"
+				}
+
+			]
+		},
+
+
+		{
+			"compId": "12323424545",
+			"compName": "Honda",
+			"compAddr": "6270 Kestrel Road, Mississauga, ON L5T 1Z4",
+			"compContact": "647-778-2345",
+			"compPontact": "647-229-2345",
+			"compEmail": "Honda@hotmail.com",
+			"invNum": [{
+					"i": "1",
+					"Invoice": "435236"
+				}, {
+					"i": "11",
+					"Invoice": "173431"
+				}
+
+
+			]
+		},
+
+		{
+			"compId": "01120163",
+			"compName": "Jagjit Textile & Pavan's Fabrics",
+			"compAddr": "99 Kennedy Rd S, Brampton, ON L6W 3G2",
+			"compContact": "647-229-1234",
+			"compPontact": "647-345-1234",
+			"compEmail": "Jagittextile@gmail.com",
+			"invNum": [{
+					"i": "2",
+					"Invoice": "54674893"
+				}, {
+					"i": "12",
+					"Invoice": "17134324"
+				}
+
+			]
+		},
+
+		{
+			"compId": "52345235",
+			"compName": "Maranello Moto Sport",
+			"compAddr": "5243 Steeles Ave W, North York, ON M9L 2W2",
+			"compContact": "564-232-4573",
+			"compPontact": "134-123-4563",
+			"compEmail": "Maranello@gmail.com",
+			"invNum": [{
+					"i": "3",
+					"Invoice": "434233224"
+				}, {
+					"i": "13",
+					"Invoice": "213124134"
+				}
+
+			]
+		},
+
+		{
+			"compId": "3124134314",
+			"compName": "Peninsula Import",
+			"compAddr": "2412 S Service Rd W, Oakville, ON L6L 5M9",
+			"compContact": "234-546-9875",
+			"compPontact": "324-564-6438",
+			"compEmail": "peninsulaimport@gmail.com",
+			"invNum": [{
+					"i": "4",
+					"Invoice": "3214134"
+				}, {
+					"i": "14",
+					"Invoice": "2141412"
+				}
+
+			]
+		},
+
+		{
+			"compId": "01120166",
+			"compName": "ezriders",
+			"compAddr": "1374 Danforth Ave, Toronto, ON M4J 1M9",
+			"compContact": "647-778-4678",
+			"compPontact": "353-133-3434",
+			"compEmail": "ezriders@gmail.com",
+			"invNum": [{
+					"i": "5",
+					"Invoice": "13123"
+				}, {
+					"i": "15",
+					"Invoice": "12321312"
+				}
+
+			]
+		},
+
+		{
+			"compId": "12312432",
+			"compName": "Peninsula Import",
+			"custAddr": "2412 S Service Rd W, Oakville, ON L6L 5M9",
+			"compContact": "456-123-123",
+			"compPontact": "131-232-2343",
+			"compEmail": "Penisualaimport@hotmail.com",
+			"invNum": [{
+					"Invoice": "143434"
+				}, {
+					"Invoice": "45435"
+				}
+
+			]
+		},
+
+
+		{
+			"compId": "21321341",
+			"compName": "Apex Cycle Sports",
+			"custAddr": "200 Preston Pkwy, Cambridge, ON N3H 5N1",
+			"compContact": "123-342-5433",
+			"compPontact": "122-213-2213",
+			"compEmail": "princess5654@outlook.com",
+			"invNum": [{
+					"Invoice": "323232213"
+				}, {
+					"Invoice": "213123213"
+				}
+
+			]
+		},
+
+		{
+			"compId": "01120169",
+			"compName": "Reliance Home Comfort",
+			"custAddr": "City South Dental, 7700 Hurontario St #502, Brampton, ON L6Y 4M3",
+			"compContact": "123-3340-32423",
+			"compPontact": "213-123-2321",
+			"compEmail": "relincehomw@hotmail.com",
+			"invNum": [{
+					"Invoice": "123123"
+				}, {
+					"Invoice": "2132133"
+				}
+
+			]
+		},
+
+		{
+			"compId": "121312",
+			"compName": "Compass Group Canada",
+			"custAddr": "7755 Hurontario St, Brampton, ON L6W 4T1",
+			"compContact": "647-778-1076",
+			"compPontact": "231-234-6544",
+			"compEmail": "compasscanada@hotmail.com",
+			"invNum": [{
+					"Invoice": "112312"
+				}, {
+					"Invoice": "12321"
+				}
+
+			]
+		}
+
+
+
+	],
+
+	"products": [{
+			"prodId": "0001",
+			"prodImg": "_images/Lenovo.jpg",
+			"prodName": "Lenovo IdeaPad 500S",
+			"prodDesc": "Intelcore: i7 - Black with windows 10",
+			"prodAmt": "$599.99"
+
+		},
+
+		{
+			"prodId": "0002",
+			"prodImg": "_images/Samsung.jpg",
+			"prodName": "Samsung 55 4k ultra HD",
+			"prodDesc": "Breathtaking 4k uhd resolution  with its brilliant lifelike colour and rzaor-sharp detail",
+			"prodAmt": "$ 1499.99"
+
+		},
+
+		{
+			"prodId": "0003",
+			"prodImg": "_images/toshiba.jpg",
+			"prodName": "Toshiba 55 1080p",
+			"prodDesc": "55-inch LCD backlit display with a native resolution of 1920*1080 presents Full HD",
+			"prodAmt": "$799.99"
+
+		},
+
+		{
+			"prodId": "0004",
+			"prodImg": "_images/ipad.jpg",
+			"prodName": "Apple Ipad pro9.7 ",
+			"prodDesc": "touch id finger-print with 12mp isight camera with 4k video",
+			"prodAmt": "$ 768.99"
+
+		},
+
+		{
+			"prodId": "0005",
+			"prodImg": "_images/iphone.jpg",
+			"prodName": "Iphone 6s 64gb smartphone",
+			"prodDesc": "4.7 inch Retina  with HD with 1334*750 pixel resolution at 366 pi",
+			"prodAmt": "$ 429.99"
+
+		},
+
+		{
+			"prodId": "0006",
+			"prodImg": "_images/dell.jpg",
+			"prodName": "Dell Inspiron 3000",
+			"prodDesc": "Intel i3 with 15.6  touchscreen",
+			"prodAmt": "$ 499.99"
+
+		},
+
+		{
+			"prodId": "1211201607",
+			"prodImg": "_images/macbook.jpg",
+			"prodName": "Apple MacBook 12",
+			"prodDesc": "Apple's incredibly thin and light MacBook ushers in the future of laptops with a full-size keyboard experience that's comfortable, precise, and responsive. ",
+			"prodAmt": "$ 299"
+
+		},
+
+		{
+			"prodId": "0008",
+			"prodImg": "_images/iphone.jpg",
+			"prodName": "Koodo Apple iPhone 6 16GB - Grey",
+			"prodDesc": "iPhone 6 isn't just bigger-it's better in every way. iPhone 6 features an A8 chip with 64-bit desktop-class architecture, 8MP iSight camera with Focus Pixels, Touch ID fingerprint identity sensor, longer battery life, and iOS 8.",
+			"prodAmt": "$ 7.65 "
+
+		},
+
+		{
+			"prodId": "0009",
+			"prodImg": "_images/samsung.jpg",
+			"prodName": "Samsung Galaxy Tab A 9.7",
+			"prodDesc": "The Samsung Galaxy Tab A blends the perfect amount of work and play. A powerful quad-core processor delivers smooth performance when streaming videos, while a high resolution 9.7",
+			"prodAmt": "$ 299.25l"
+
+		},
+
+		{
+			"prodId": "0010",
+			"prodImg": "_images/ps4.jpg",
+			"prodName": "PlayStation 4 500GB Console",
+			"prodDesc": "Lose yourself in a world of immersive gaming and top-tier entertainment with PlayStation 4. Enjoy blockbuster storytelling presented in stunning Full HD 1080p and an online library full of exclusive content tailor-made for the PS4.",
+			"prodAmt": "$ 429.99"
+
+		}
+
+
+
+
+	],
+
+	"invoice": [
+
+		{
+			"invNum": "14124412",
+			"invDate": "03-04-2015",
+			"invAmt": "15000",
+			"compId": "21321341",
+			"prod": [{
+				"prodId": "123421",
+				"qty": "3"
+			}]
+
+		},
+
+
+		{
+			"invNum": "1243124",
+			"invDate": "05-10-2016",
+			"invAmt": "10000",
+			"compId": "21321341",
+			"prod": [{
+				"prodId": "123422",
+				"qty": "1"
+			}]
+
+		},
+
+		{
+			"invNum": "3453463",
+			"invDate": "10-06-2015",
+			"invAmt": "12000",
+			"compId": "01120163",
+			"prod": [{
+				"prodId": "123423",
+				"qty": "5"
+			}]
+
+		},
+
+
+		{
+			"invNum": "4324432",
+			"invDate": "04-06-2016",
+			"invAmt": "7000",
+			"compId": "01120164",
+			"prod": [{
+				"prodId": "123424",
+				"qty": "4"
+			}]
+
+		},
+
+		{
+			"invNum": "21312312",
+			"invDate": "02-07-2016",
+			"invAmt": "214323",
+			"compId": "21321341",
+			"prod": [{
+				"prodId": "123425",
+				"qty": "2"
+			}]
+
+		},
+
+		{
+			"invNum": "21312312",
+			"invDate": "08-02-2016",
+			"invAmt": "6333",
+			"compId": "21321341",
+			"prod": [{
+				"prodId": "123426",
+				"qty": "1"
+			}]
+
+		},
+
+		{
+			"invNum": "134324324",
+			"invDate": "08-05-2016",
+			"invAmt": "23123",
+			"compId": "121312",
+			"prod": [{
+				"prodId": "1213427",
+				"qty": "1"
+			}]
+
+		},
+
+		{
+			"invNum": "1234508",
+			"invDate": "10-10-2016",
+			"invAmt": "234244",
+			"compId": "1213428",
+			"prod": [{
+				"prodId": "123428",
+				"qty": "2"
+			}]
+
+		},
+
+		{
+			"invNum": "1233123",
+			"invDate": "14-12-2016",
+			"invAmt": "23213",
+			"compId": "12312432",
+			"prod": [{
+				"prodId": "123429",
+				"qty": "1"
+			}]
+
+		},
+
+		{
+			"invNum": "122312",
+			"invDate": "10-01-2016",
+			"invAmt": "12234134",
+			"compId": "121312",
+			"prod": [{
+				"prodId": "1234330",
+				"qty": "1"
+			}]
+
+		}, {
+			"invNum": "32141124",
+			"invDate": "29-11-2016",
+			"invAmt": "12321",
+			"compId": "121312",
+			"prod": [{
+				"prodId": "1234331",
+				"qty": "4"
+			}]
+
+		},
+
+
+		{
+			"invNum": "12334",
+			"invDate": "12-12-2016",
+			"invAmt": "321312",
+			"compId": "213213",
+			"prod": [{
+				"prodId": "1234432",
+				"qty": "2"
+			}]
+
+		},
+
+		{
+			"invNum": "123123",
+			"invDate": "15-11-2016",
+			"invAmt": "123213",
+			"compId": "12312432",
+			"prod": [{
+				"prodId": "1234433",
+				"qty": "4"
+			}]
+
+		},
+
+
+		{
+			"invNum": "1234514",
+			"invDate": "04-01-2016",
+			"invAmt": "21333",
+			"compId": "01120164",
+			"prod": [{
+				"prodId": "1234434",
+				"qty": "4"
+			}]
+
+		},
+
+		{
+			"invNum": "3213123",
+			"invDate": "15-12-2016",
+			"invAmt": "12321",
+			"compId": "01120165",
+			"prod": [{
+				"prodId": "1234435",
+				"qty": "5"
+			}]
+
+		},
+
+		{
+			"invNum": "131232",
+			"invDate": "16-11-2016",
+			"invAmt": "1000",
+			"compId": "12312432",
+			"prod": [{
+				"prodId": "1234436",
+				"qty": "1"
+			}]
+
+		},
+
+		{
+			"invNum": "1223334",
+			"invDate": "13-12-2016",
+			"invAmt": "1222",
+			"compId": "12312432",
+			"prod": [{
+				"prodId": "1234437",
+				"qty": "2"
+			}]
+
+		},
+
+		{
+			"invNum": "121233",
+			"invDate": "10-11-2016",
+			"invAmt": "12131",
+			"compId": "01120168",
+			"prod": [{
+				"prodId": "1234438",
+				"qty": "3"
+			}]
+
+		},
+
+		{
+			"invNum": "131313",
+			"invDate": "09-01-2016",
+			"invAmt": "1213",
+			"compId": "12312432",
+			"prod": [{
+				"prodId": "1234439",
+				"qty": "2"
+			}]
+
+		},
+
+		{
+			"invNum": "321321",
+			"invDate": "12-12-2016",
+			"invAmt": "1233",
+			"compId": "12312432",
+			"prod": [{
+				"prodId": "1234440",
+				"qty": "1"
+			}]
+
+		}
+	]
+
+}

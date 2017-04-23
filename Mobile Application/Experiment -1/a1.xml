@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!-- Include your name in this opening and also the closing tag 
+		 Take out all text in opening and closing tag and include just your username -->
+<shkaran>
+
+	<!-- Include your Sheridan Student number in the studentNumber attribute-->
+	<student studentNumber="991377695">
+	
+		<!-- Include your full name -->	
+		<studentName>karan sharma</studentName>
+
+		<!-- Include your Program -->	
+		<studentProg>Computer System Technician Software-Engenering</studentProg>
+		
+		<!-- Include your Campus -->	
+		<studentCampus>Davis</studentCampus>
+			
+		<!-- Include an image filename for an image of you -->
+		<image>karan.jpg</image>
+		
+		<!-- Include information for 3 of your favorite movies 
+				 ex. movieName="The Fly"
+						 movieDirector="David Cronenberg"
+						 movieType="Horror"
+						 moviePoster="_images/theFly.jpg"-->
+		
+		<movie movieName="Spdier-Man2">
+		<id>movie1</id>
+			<movieDirector> Marc Webb</movieDirector>
+			<movieType> Action | Adventure | Fantasy | Sci-Fi</movieType>
+			<moviePoster>Spider-man.jpg</moviePoster>
+		</movie>
+		<movie movieName="The Social Network">
+		<id>movie2</id>
+			<movieDirector> David Fincher</movieDirector>
+			<movieType> Biography | Drama</movieType>
+			<moviePoster>social network.jpg</moviePoster>
+		</movie>
+		<movie movieName="Intersteller">
+		<id>movie3</id>
+			<movieDirector> Christopher Nolan</movieDirector>
+			<movieType> Adventure | Drama | Sci-Fi</movieType>
+			<moviePoster>Interstellar.jpg</moviePoster>
+		</movie>
+	</student>
+</shkaran>
+
+

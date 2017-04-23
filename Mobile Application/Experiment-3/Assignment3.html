@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Chess Board Setup</title>
+<meta charset="utf-8">
+<script type="text/javascript" src="../jquery.js"></script>
+</head>
+<body>
+<div style="padding:30px">
+    <h2>Practice 3 - Chess Board with Pieces</h2>	
+    <canvas id="myCanvas" width="480" height="480" style="border:1px solid black;">
+    </canvas>
+</div>
+
+<script>
+$(document).ready(function() {
+    var c = $("#myCanvas")[0];
+    var ctx = c.getContext("2d");
+    var x, step = 60, step2 = step * 2, col = ["red","red","yellow","yellow"];
+    var yy = [0, 0, 240, 240];
+    ctx.lineWidth = 2;
+    ctx.strokeStyle = "black";	//set the color, gradient, or pattern for stroke
+
+    ctx.rect(0,0,480,480);
+    ctx.stroke();
+    ctx.save();
+
+    for (var k=0; k<2; k++)  {
+        step2 -= step;
+        ctx.translate(0, step*k);
+        for (var y=0; y<4; y++)
+            for (var i=0; i<4; i++)  {
+                x = i * 2 * step + step2;
+                ctx.fillStyle = "black";
+                ctx.fillRect(x,y*step*2,step,step);
+                }
+            }
+
+    ctx.restore();
+    ctx.beginPath();
+    ctx.arc(0*60+30, 0*60+30+yy[0], 25, 0, 2 * Math.PI);
+    ctx.fillStyle = "red";
+    ctx.fill();
+    ctx.stroke();
+    
+    ctx.beginPath();
+    ctx.arc(1*60+30, 0*60+30+yy[0], 25, 0, 2 * Math.PI);
+    ctx.fillStyle = "red";
+    ctx.fill();
+    ctx.stroke();
+
+    ctx.beginPath();
+    ctx.arc(0*60+30, 1*60+30+yy[1], 25, 0, 2 * Math.PI);
+    ctx.fillStyle = "red";
+    ctx.fill();
+    ctx.stroke();
+    
+    ctx.beginPath();
+    ctx.arc(1*60+30, 1*60+30+yy[1], 25, 0, 2 * Math.PI);
+    ctx.fillStyle = "red";
+    ctx.fill();
+    ctx.stroke();
+
+    ctx.beginPath();
+    ctx.arc(0*60+30, 2*60+30+yy[2], 25, 0, 2 * Math.PI);
+    ctx.fillStyle = "yellow";
+    ctx.fill();
+    ctx.stroke();
+    
+    ctx.beginPath();
+    ctx.arc(1*60+30, 2*60+30+yy[2], 25, 0, 2 * Math.PI);
+    ctx.fillStyle = "yellow";
+    ctx.fill();
+    ctx.stroke();
+    
+    ctx.beginPath();
+    ctx.arc(0*60+30, 3*60+30+yy[3], 25, 0, 2 * Math.PI);
+    ctx.fillStyle = "yellow";
+    ctx.fill();
+    ctx.stroke();
+    
+    ctx.beginPath();
+    ctx.arc(1*60+30, 3*60+30+yy[3], 25, 0, 2 * Math.PI);
+    ctx.fillStyle = "yellow";
+    ctx.fill();
+    ctx.stroke();
+
+})
+
+</script>
+</body>
+</html>

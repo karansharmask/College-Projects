@@ -1,0 +1,29 @@
+#btn {
+
+  background-color:#D3D3D3;
+    
+	
+}
+h2
+{
+	color:#fec50b;
+	font-style: italic;
+	font-weight:bold;
+	font-size: 150%;
+	text-shadow: -3px 3px 4px #ffd700;
+	
+}
+#info
+{
+	
+	
+	color:black;
+	font-weight:bold;
+}
+#format
+{
+	 background-color:#D3D3D3;
+}
+#img{
+	float:right;
+}

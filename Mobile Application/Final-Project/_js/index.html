@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+	<link rel="stylesheet" href="_css/jquery.mobile.css" />	
+	<link rel="stylesheet" href="_css/mycss.css" />	
+	<script src="_js/jquery.js"></script>											
+	<script src="_js/jquery.mobile.js"></script>		
+	<script src="_js/myscript.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=false"></script>
+
+</head>
+<body>
+	<div data-role="page" id="home"  data-theme="a">
+		<header data-role="header" >
+			<div class="ui-grid-b">
+					
+					<h2 style="background-color:black; text-align:center;"  >SellMore Ltd.</h2>
+					
+						<div id="btn" data-role="controlgroup" data-type="horizontal" style="text-align:center;"  class=" ui-controlgroup ui-controlgroup-horizontal">
+							<button id="productMain" class="ui-btn ui-button-text-only" style="text-align:center;" >Products</button>
+							<button id="customerMain" class="ui-btn ui-button-text-only" style="text-align:center;" >Customer</button>
+							<button id="invoiceMain" class="ui-btn ui-button-text-only" style="text-align:center;" >Invoice</button>
+							   
+						
+					</div>
+					
+					
+			</div>
+		</header>
+			<div class="ui-content" role="main">
+				<ul id="info" data-role="listview"  data-inset="true" >
+				</ul>
+			</div>
+		</div>
+	
+	
+	
+	
+	<div data-role="page" id="customerDetails"  data-theme="a">
+		<header data-role="header" >
+			<div >
+					
+					<h2 style="background-color:black; text-align:center;"  ><a href="#home" onclick="custHomeClick()" class="ui-btn ui-icon-home ui-btn-icon-notext ui-corner-all"></a>SellMore Ltd.</h2>
+					
+						
+					</div>
+		</header>
+		<div class="ui-content ui-grid-a" role="main">
+			<div class="ui-block-a">
+			<div id="indiCustomer"></div><br>
+			</div>
+			<div class="ui-block-b">
+			<div id="map-canvas"  style="width: 90%; height: 212px; float:right"></div>
+			</div>
+		
+		</div>
+		</div>
+		
+		
+		
+		<div data-role="page" id="productpage"  data-theme="a">
+		<header data-role="header" >
+			<div >
+			<h2 style="background-color:black;text-align:center;"  ><a href="#home" onclick="custHomeClick()" class="ui-btn ui-icon-home ui-btn-icon-notext ui-corner-all"></a>SellMore Ltd.</h2>
+				
+					
+						
+					</div>
+		</header>
+		<div class ="ui-grid-a ui-content" role="main">
+			
+			<div id="img" class="ui-block-a" ></div>
+			<div class="ui-block-b" >
+			<div id="prprod" ></div></div>
+			</div>
+		</div>
+		
+		
+
+		<div data-role="page" id="invoicepage"  data-theme="a">
+		<header data-role="header" >
+			<div >
+					<h2 style="background-color:black; text-align:center;"  ><a href="#home" onclick="custHomeClick()" class="ui-btn ui-icon-home ui-btn-icon-notext ui-corner-all"></a>SellMore Ltd.</h2>
+				
+					</div>
+		</header>
+		<div class="ui-content" role="main">
+			
+			
+			<div id="prinv" style="border-style: solid;text-align:center"></div>
+		
+		</div>
+		</div>
+
+
+
+</body>
+</html>

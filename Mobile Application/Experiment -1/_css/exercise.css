@@ -1,0 +1,55 @@
+	body{
+	    background:url(../_images/abstract.jpg);
+     	
+	}
+	.photo{
+		width:150px;
+		height:150px;
+		
+	}
+	
+	.content{
+		float:left;
+		color: darkblue;
+		font-weight:bold;
+		
+	}
+	
+	h1, h2, h3 {
+		text-align: center;
+		color: darkblue;
+		font-style: italic;
+	}
+	.imgformat {
+		text-align: center;
+	
+	
+	}
+	.uperarea {
+		width: 48%;
+		height: 150px;
+		background: #FFFFFF;
+		background:rgba(255,255,255,0.5)
+	}
+	#e0 {float:left; top:0; left:0;}
+	#e1 {float:right; top:0; right:0;}
+	
+	
+
+	.lowerarea {
+		width: 48%;
+		height: 150px;
+		background: #FFFFFF;
+		background:rgba(255,255,255,0.5)
+	}
+	#b0 {float:left; top:0; left:0;}
+	#b1 {float:right; top:0; right:0;}
+	#b2 {margin-left:100px; bottom:0; left:0;}
+	
+	
+	.ename {
+		font-size: 1.25em;
+		font-weight: bold;
+		color: darkblue;
+		text-align: center;
+	}
