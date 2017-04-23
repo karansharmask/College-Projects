@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Assignment-2</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+	<link rel="stylesheet" href="_css/jquery.mobile.css" />
+	<link rel="stylesheet" href="_css/mystyles.css" />
+	<link rel="stylesheet" href="_css/shkaran.css" />	
+	
+	<script src="_js/jquery.js"></script>
+	<script src="_js/jquery.mobile.js"></script>
+	<script src="_js/myscript.js"></script>
+	
+</head>
+<body>
+<!-- Home page -->
+<div data-role="page" id="home">
+	<header data-role="header">
+		<h1></h1>
+	</header>
+
+	<section class="ui-content" role="main">
+	
+		<ul id="BookMenu" data-role="listview" data-inset="true" data-filter="true">
+		
+		</ul>
+			
+		
+	</section>
+	
+	<footer data-role="footer">
+      <nav data-role="navbar">
+        <ul>
+          <li><a href="#home" class="ui-btn">HOME</a></li>
+          <li><a href="#Singlepage" class="ui-btn">
+							<span class="Book0"></span></a></li>
+          <li><a href="#Singlepage" class="ui-btn">
+							<span class="Book1"></span></a></li>
+          <li><a href="#Singlepage" class="ui-btn">
+							<span class="Book2"></span></a></li>
+          <li><a href="#Singlepage" class="ui-btn">
+							<span class="Book3"></span></a></li>
+        </ul>
+      </nav>
+			<h2> 	</h2>
+		</footer>
+</div>
+<!-- end of home page -->
+
+<!-- Start of individual page -->
+<div data-role="page" id="Singlepage" data-theme="a">
+	<header data-role="header">
+		<a href="#home" class="ui-btn ui-icon-home ui-btn-icon-notext ui-corner-all">HOME</a>
+		<h1 class="ui-title"></h1>
+	</header>
+
+	<section class="ui-content" role="main">
+		<section id="Book-data"></section>
+	</section>
+	<section class="ui-grid-a" align="center">
+			<div class="ui-block-a">				
+				<p><a href="#popup" class="ui-btn ui-icon-info ui-btn-icon-bottom" 
+							data-rel="dialog" data-transition="pop">Book Review</a></p>				
+			</div>
+			<div  class="ui-block-b">
+							
+				<p><a target="_blank" href="http://www.indigo.ca" class="ui-btn ui-icon-info ui-btn-icon-bottom" >Book Access</a></p>				
+			</div>
+		
+
+
+	</section>
+	
+	<footer data-role="footer">
+      			<h2></h2>
+		</footer>	
+</div>
+
+
+<!-- Start of #popup -->
+<div data-role="page" id="popup">
+
+	<header data-role="header" data-theme="b">
+	<h5>Review</h5>
+	</header><!-- /header -->
+
+	<div class="ui-content" role="main" data-theme="b">	
+		<h3>This Books are Very Intersting I personally Recommend everyone to 
+		read this books as books considered as a loyal friend </h3>		
+		<p><a href="#home" data-rel="back" class="ui-btn ui-icon-back ui-btn-icon-top">Back to home page</a></p>	
+	</div>
+</div>
+<!-- end of popup page -->
+</body>
+</html>

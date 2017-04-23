@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<shkaran>
+
+<BookSite>Books In Paradise</BookSite>
+<StudentName studentNumber="991377695" studentProg="Computer System Technician Software-Engenering">karan sharma</StudentName>
+<Books>		
+		  <Book>
+     		<Name Image="Davincicode.jpg">The Da Vinci Code</Name>
+		    <Desc BookType="A Novel">This is mystery writing at its best: gripping, intelligent, and original. 
+			A brilliant Harvard professor and a beautiful French cryptologist get mixed up with Opus Dei, 
+			a deeply devout yet highly controversial Catholic sect</Desc>
+			<AuthorName>Dan Brown</AuthorName>
+			<PublisherName>Knopf Doubleday</PublisherName>
+			<CurrentPrice>$24.74</CurrentPrice>
+			
+		</Book>
+		
+		  <Book>	
+     		<Name Image = "TheShallows.jpg">The Shallows</Name>
+		    <Desc Type = "Science| Nature">Is Google making us stupid?” 
+			When Nicholas Carr posed that question, in a celebrated Atlantic Monthly cover story, 
+			he tapped into a well of anxiety about how the Internet is changing us. 
+			He also crystallized one of the most important debates of our time: As we enjoy 
+			the Net’s bounties, are we sacrificing our ability to read and think deeply?   </Desc>
+			<AuthorName>Nicholas Carr</AuthorName>
+			<PublisherName> WW Norton</PublisherName>
+			<CurrentPrice>$13.18 </CurrentPrice>
+					</Book>
+		
+		 <Book>
+	    	
+     		<Name Image="HouseOfLeaves.jpg">House of Leaves</Name>
+		    <Desc Type="Fiction | Literature | Horror">  Years ago, when House of Leaves was first being passed around, it was nothing more than a 
+			badly bundled heap of paper, parts of which would occasionally surface on the Internet. No one could have anticipated the small but devoted 
+			following this terrifying story would soon command. Starting with an odd assortment of marginalized youth -- musicians, tattoo artists, programmers, 
+			strippers, environmentalists, and adrenaline junkies -- the book eventually made its way into the hands of older generations, who not only found
+			themselves in those strangely arranged pages but also discovered a way back into the lives of their estranged children. </Desc>
+			<AuthorName>Mark Z. Danielewski</AuthorName>
+			<PublisherName> Knopf Doubledayi</PublisherName>
+			<CurrentPrice>$17.30 </CurrentPrice>
+			
+		</Book>
+		
+		
+		 <Book>
+	    	
+     		<Name Image="Introtoalgo.jpeg">Introduction to Algorithms</Name>
+		    <Desc Type="Computer | Technology"> Some books on algorithms are rigorous but incomplete; others cover masses of material but lack rigor.
+			Introduction to Algorithms uniquely combines rigor and comprehensiveness. The book covers a broad range of algorithms in depth, yet makes their
+			design and analysis accessible to all levels of readers. Each chapter is relatively self-contained and can be used as a unit of study.
+			The algorithms are described in English and in a pseudocode designed to be readable by anyone who has done a little programming.
+			The explanations have been kept elementary without sacrificing depth of coverage or mathematical rigor. </Desc>
+			<AuthorName>Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest</AuthorName>
+			<PublisherName> The MIT Press</PublisherName>
+			<CurrentPrice>$103.35</CurrentPrice>
+
+		</Book>
+</Books>
+</shkaran>

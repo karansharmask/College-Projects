@@ -1,0 +1,10 @@
+
+.ui-icon-sheridan:after
+{
+	background-image: url("images/sheridan.png");
+	background-size: 22px 22px;
+}
+img
+{
+	float:right;
+}

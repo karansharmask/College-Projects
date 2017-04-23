@@ -1,0 +1,67 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="FireCrackerApp.Main" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="css/main.css" rel="stylesheet" />
+    <script src="jquery/jquery.js"></script>
+    <title>Main MasterPage</title>
+    <script type="text/javascript">
+        function mainmenu() {
+            $(" #nav ul ").css({ display: "none" }); 
+
+            $(" #nav li").hover(function () {
+                $(this).find('ul:first').css({ visibility: "visible", display: "none" }).show(400);
+            }
+            , function () {
+                $(this).find('ul:first').css({ visibility: "hidden" });
+            });
+        }
+
+        $(document).ready(function () {
+            mainmenu();
+        });
+    </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+   <div id="wrapper">
+        <div id="Banner"><!--Banner or cover Image of the website starts --->
+            <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+            <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+                <ContentTemplate>
+                     <asp:Timer ID="Timer1" runat="server" Interval="1000" OnTick="Slide_Click"></asp:Timer>
+            <asp:Image ID="SlideShow" runat="server" Height="203px" Width="1074px" />
+
+                </ContentTemplate>
+            </asp:UpdatePanel>
+                       </div><!--Banner or cover Image of the website Ends --->
+        <div id="Navigation"><!--Navigation Bar starts --->
+            <ul id="nav">
+                <li><a href="Home.aspx" runat="server">Home</a></li>
+                <li><a href="Products.aspx">Products</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+                   <div id="Login" align="right">
+                <asp:Label ID="lblLogin" runat="server" ForeColor="black" Text=""></asp:Label><br />
+                <asp:LinkButton ID="LinkButton1" ForeColor="black" runat="server" OnClick="LinkButton1_Click">LinkButton</asp:LinkButton>
+            </div>
+        </div><!--Navigation bar Ends --->
+        <div id="content-area"><!-- Content Area Starts -->
+            <asp:ContentPlaceHolder ID="contentPlaceholderfront" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </div><!-- Content area ends -->
+        <div id="sidebar"><!-- Sidebar Starts -->
+             
+        </div><!-- Sidebar Ends -->
+        <div id="Footer"> <!-- Footer starts --->
+            <p>All rights Reserved</p>
+        </div><!-- Footer Ends ---> 
+       
+    </div>
+
+    </form>
+</body>
+</html>
